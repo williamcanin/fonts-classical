@@ -10,4 +10,4 @@ node_modules
 ./Gulpfile.js
 ./Gruntfile.js
 ./package.json
-./deploy.sh
+deploy.sh
