@@ -1,0 +1,13 @@
+# Default exclude
+.git
+/**/.DS_Store
+/**/*.*~
+/**/*log
+
+# Development exclude
+node_modules
+Gulpfile.js
+Gruntfile.js
+package.json
+.sass-cache
+deploy.sh
