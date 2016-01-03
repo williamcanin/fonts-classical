@@ -1,25 +1,22 @@
 {
   "name": "fonts-classical",
   "version": "1.0.1",
-  "homepage": "https://github.com/williamcanin/fonts-classical",
-  "authors": [
-    "William Canin <william.costa.canin@gmail.com>"
-  ],
   "description": "Fonts Classical (Arial, Time New Roman, Verdana)",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/williamcanin/fonts-classical"
+  },
   "keywords": [
     "fonts-classical",
-    "classical",
+    "Arial",
+    "Time New Roman",
+    "Verdana",
     "webfonts",
     "web",
     "fonts"
   ],
-  "main": [
-	"./src/css/fonts-classical.css",
-	"./css/fonts-classical.min.css",
-	"./fonts/arial/Arial.ttf",
-	"./fonts/times-new-roman/Times-New-Roman.ttf",
-	"./fonts/verdana/Verdana.ttf"
-	],
+  "author": "William Canin <william.costa.canin@gmail.com>",
   "licenses": [
     {
       "covers": "software",
@@ -32,10 +29,11 @@
       "url": "http://scripts.sil.org/OFL"
     }
   ],
-  "ignore": [
-    "node_modules",
-    "bower_components",
-    "./deploy.sh",
-    "./init.sh"
-  ]
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-available-tasks": "^0.6.1",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-cssmin": "^0.6.2",
+    "load-grunt-tasks": "^3.3.0"
+  }
 }

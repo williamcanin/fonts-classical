@@ -1,25 +1,22 @@
 {
   "name": "fonts-classical",
   "version": "1.0.1",
-  "homepage": "https://github.com/williamcanin/fonts-classical",
-  "authors": [
-    "William Canin <william.costa.canin@gmail.com>"
-  ],
   "description": "Fonts Classical (Arial, Time New Roman, Verdana)",
+  "main": "Gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/williamcanin/fonts-classical"
+  },
   "keywords": [
     "fonts-classical",
-    "classical",
+    "Arial",
+    "Time New Roman",
+    "Verdana",
     "webfonts",
     "web",
     "fonts"
   ],
-  "main": [
-	"./src/css/fonts-classical.css",
-	"./css/fonts-classical.min.css",
-	"./fonts/arial/Arial.ttf",
-	"./fonts/times-new-roman/Times-New-Roman.ttf",
-	"./fonts/verdana/Verdana.ttf"
-	],
+  "author": "William Canin <william.costa.canin@gmail.com>",
   "licenses": [
     {
       "covers": "software",
@@ -32,10 +29,11 @@
       "url": "http://scripts.sil.org/OFL"
     }
   ],
-  "ignore": [
-    "node_modules",
-    "bower_components",
-    "./deploy.sh",
-    "./init.sh"
-  ]
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-minify-css": "^1.2.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-task-listing": "^1.0.1"
+  }
 }
