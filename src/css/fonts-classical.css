@@ -1,15 +1,98 @@
+/* Arial @font-face  */
+
 @font-face {
   font-family: 'Arial';
-  src: local('Arial'), local('Arial'), url(../fonts/arial/Arial.ttf) format('truetype');
+  src: local('Arial'), local('Arial'), url('../fonts/arial/Arial.ttf') format('truetype');
   font-style: normal;
 }
+
+/* Times New Roman @font-face  */
+
 @font-face {
   font-family: 'Times New Roman';
-  src: local('Times New Roman'), local('Times-New-Roman'), url(../fonts/times-new-roman/Times-New-Roman.ttf) format('truetype');
+  src: local('Times New Roman'), local('Times-New-Roman'), url('../fonts/times-new-roman/Times-New-Roman.ttf') format('truetype');
   font-style: normal;
 }
+
+/* Verdana @font-face  */
+
 @font-face {
   font-family: 'Verdana';
-  src: local('Verdana'), local('Verdana'), url(../fonts/verdana/Verdana.ttf) format('truetype');
+  src: local('Verdana'), local('Verdana'), url('../fonts/verdana/Verdana.ttf') format('truetype');
   font-style: normal;
 }
+
+/* Merriweather @font-face kit */
+
+/* BEGIN Light */
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/merriweather-fontface/Merriweather-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+/* END Light */
+
+/* BEGIN Light Italic */
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/merriweather-fontface/Merriweather-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+/* END Light Italic */
+
+/* BEGIN Regular */
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/merriweather-fontface/Merriweather-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* END Regular */
+
+/* BEGIN Italic */
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/Italic/OpenSans-Italic.eot');
+  src: url('../fonts/merriweather-fontface/Merriweather-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+/* END Italic */
+
+/* BEGIN Bold */
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/merriweather-fontface/Merriweather-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+/* END Bold */
+
+/* BEGIN Bold Italic */
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/merriweather-fontface/Merriweather-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+/* END Bold Italic */
+
+/* BEGIN Extrabold */
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/merriweather-fontface/Merriweather-Black.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+/* END Extrabold */
+
+/* BEGIN Extrabold Italic */
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/merriweather-fontface/Merriweather-HeavyItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+/* END Extrabold Italic */
